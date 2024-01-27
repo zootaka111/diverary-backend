@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "diverary")
+@Table(name = "user")
 public class SignUpUser {
 	// エンティティの主キーを指定。今回であれば "id" カラムになる
 	@Id
